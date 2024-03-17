@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(90deg,
+    rgb(253, 255, 201),
+    rgb(255, 255, 0));
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 40px 20px;
+    background: #fff;
+    margin: auto;
+    width: 80%;
+}
+h1{
+    text-align: center;
+    letter-spacing: 2px;
+}
+.imgBlok{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    text-align: justify;
+    line-height: 3;
+}
+.imgBlok img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+.blok{
+    color: rgb(5, 50, 132);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: justify;
+    font-family: cursive;
+}
+.blok h2{
+    font-family: serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: right;
+}
